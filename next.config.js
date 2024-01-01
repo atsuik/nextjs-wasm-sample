@@ -2,6 +2,7 @@
 const path = require("path");
 const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
 const nextConfig = {
+  output: "export",
   webpack(config, { isServer, dev }) {
     config.plugins.push(
       new WasmPackPlugin({
