@@ -53,9 +53,14 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - uses: dtolnay/rust-toolchain@stable
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
         with:
           components: "wasm-pack"
+      - name: Setup wasm-pack
+        id: setup-wasm-pack
+        run: |
+          cargo install wasm-pack
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
