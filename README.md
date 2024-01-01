@@ -2,6 +2,8 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Demo page is https://atsuik.github.io/nextjs-wasm-sample.
+
 Requirement for Develop environment
 
 - Nodejs v20
