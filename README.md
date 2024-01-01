@@ -1,4 +1,15 @@
+# Next.js with Wasm Sample
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Requirement for Develop environment
+
+- Nodejs v20
+- rustup
+- wasm-pack
+
+You can build a development environment using [devcontainers](https://code.visualstudio.com/docs/devcontainers/containers).
+The easest way to start development is using [Github Codespaces](https://github.com/features/codespaces).
 
 ## Getting Started
 
